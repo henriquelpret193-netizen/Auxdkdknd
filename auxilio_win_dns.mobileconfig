@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://cloudflare-dns.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Usa DNS-over-HTTPS da Cloudflare. Pode melhorar a resolução de nomes em algumas redes, mas não garante redução do ping em jogos.</string>
+			<key>PayloadDisplayName</key>
+			<string>AUXILIO WIN • DNS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.auxiliowin.dns.75eb8f03-cbca-44d1-8b53-faf0d9acc729</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>75EB8F03-CBCA-44D1-8B53-FAF0D9ACC729</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>AUXILIO WIN DNS</string>
+	<key>PayloadDescription</key>
+	<string>Perfil DNS-over-HTTPS usando Cloudflare. Não altera diretamente o ping nem as rotas de jogos.</string>
+	<key>PayloadIdentifier</key>
+	<string>com.auxiliowin.profile.a78b067f-f20f-4b52-9b1a-a23d49ffc708</string>
+	<key>PayloadOrganization</key>
+	<string>AUXILIO WIN</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A78B067F-F20F-4B52-9B1A-A23D49FFC708</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
